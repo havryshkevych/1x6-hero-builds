@@ -17,7 +17,7 @@ function generateHeroGrid(heroes: string[]): string {
         const row = rowHeroes.map(hero => {
             const imgPath = `./${path.join(DOWNLOAD_DIR, hero, 'hero.png')}`.replace(/\\/g, '/');
             const linkPath = `./${path.join(DOWNLOAD_DIR, hero, 'README.md')}`.replace(/\\/g, '/');
-            return `!${hero}\n\n [![${hero}](${imgPath})](${linkPath})`;
+            return `## ${hero}\n\n [![${hero}](${imgPath})](${linkPath})`;
         }).join(' ');
         rows.push(row);
     }
