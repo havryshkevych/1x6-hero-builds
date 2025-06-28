@@ -1,0 +1,27 @@
+{
+  "name": "dota1x6",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "^1.2.17",
+    "@types/node": "^24.0.6",
+    "playwright": "^1.53.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "npm": "^11.4.2"
+  },
+  "scripts": {
+    "save-cookies": "tsx src/saveCookies.ts",
+    "fetch-links": "tsx src/fetchGuides.ts",
+    "scrape": "tsx src/downloadGuides.ts",
+    "readme": "tsx src/generateReadme.ts",
+    "all": "npm run scrape && npm run readme"
+  }
+}
