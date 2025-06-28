@@ -2,7 +2,7 @@ import {chromium} from 'playwright';
 import fs from 'fs';
 import {BASE_URL, GUIDE_LIST_URL} from './config';
 
-export async function fetchGuideLinks(): Promise<string[]> {
+export async function fetchGuideLinks(): Promise<{ link: string; image: string | null }[]> {
     const browser = await chromium.launch();
     const context = await browser.newContext();
 
@@ -16,8 +16,17 @@ export async function fetchGuideLinks(): Promise<string[]> {
         anchors.map(a => (a as HTMLAnchorElement).href)
     );
 
-    // await browser.close();
-    return Array.from(new Set(links)).filter(link => link.startsWith(BASE_URL));
+    const heroData = await page.$$eval('main a[href*="/heroes/"]', anchors =>
+        anchors.map(a => {
+            const href = (a as HTMLAnchorElement).href;
+            const img = a.querySelector('img');
+            const imgSrc = img ? (img as HTMLImageElement).src : null;
+            return { link: href, image: imgSrc };
+        })
+    );
+    await browser.close();
+
+    return heroData;
 }
 
 (async () => {

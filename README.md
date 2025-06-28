@@ -1,115 +1,19 @@
-# Dota 1x6 Hero Builds
+# Dota 1x6 Hero Builds (обновлено 28.06.2025)
 
 Нажми на аватар героя, чтобы открыть подробный билд
 
-## abaddon
+<a href="./downloads/abaddon/README.md"><img src="./downloads/abaddon/avatar.png" alt="abaddon" width="100"/></a> <a href="./downloads/alchemist/README.md"><img src="./downloads/alchemist/avatar.png" alt="alchemist" width="100"/></a> <a href="./downloads/antimage/README.md"><img src="./downloads/antimage/avatar.png" alt="antimage" width="100"/></a> <a href="./downloads/arc-warden/README.md"><img src="./downloads/arc-warden/avatar.png" alt="arc-warden" width="100"/></a> <a href="./downloads/axe/README.md"><img src="./downloads/axe/avatar.png" alt="axe" width="100"/></a> <a href="./downloads/bane/README.md"><img src="./downloads/bane/avatar.png" alt="bane" width="100"/></a>
 
- [![abaddon](./downloads/abaddon/hero.png)](./downloads/abaddon/README.md) ## alchemist
+<a href="./downloads/bloodseeker/README.md"><img src="./downloads/bloodseeker/avatar.png" alt="bloodseeker" width="100"/></a> <a href="./downloads/bristleback/README.md"><img src="./downloads/bristleback/avatar.png" alt="bristleback" width="100"/></a> <a href="./downloads/centaur/README.md"><img src="./downloads/centaur/avatar.png" alt="centaur" width="100"/></a> <a href="./downloads/crystal-maiden/README.md"><img src="./downloads/crystal-maiden/avatar.png" alt="crystal-maiden" width="100"/></a> <a href="./downloads/drow-ranger/README.md"><img src="./downloads/drow-ranger/avatar.png" alt="drow-ranger" width="100"/></a> <a href="./downloads/ember-spirit/README.md"><img src="./downloads/ember-spirit/avatar.png" alt="ember-spirit" width="100"/></a>
 
- [![alchemist](./downloads/alchemist/hero.png)](./downloads/alchemist/README.md) ## antimage
+<a href="./downloads/enigma/README.md"><img src="./downloads/enigma/avatar.png" alt="enigma" width="100"/></a> <a href="./downloads/hoodwink/README.md"><img src="./downloads/hoodwink/avatar.png" alt="hoodwink" width="100"/></a> <a href="./downloads/huskar/README.md"><img src="./downloads/huskar/avatar.png" alt="huskar" width="100"/></a> <a href="./downloads/invoker/README.md"><img src="./downloads/invoker/avatar.png" alt="invoker" width="100"/></a> <a href="./downloads/juggernaut/README.md"><img src="./downloads/juggernaut/avatar.png" alt="juggernaut" width="100"/></a> <a href="./downloads/legion-commander/README.md"><img src="./downloads/legion-commander/avatar.png" alt="legion-commander" width="100"/></a>
 
- [![antimage](./downloads/antimage/hero.png)](./downloads/antimage/README.md) ## arc-warden
+<a href="./downloads/leshrac/README.md"><img src="./downloads/leshrac/avatar.png" alt="leshrac" width="100"/></a> <a href="./downloads/lifestealer/README.md"><img src="./downloads/lifestealer/avatar.png" alt="lifestealer" width="100"/></a> <a href="./downloads/lina/README.md"><img src="./downloads/lina/avatar.png" alt="lina" width="100"/></a> <a href="./downloads/marci/README.md"><img src="./downloads/marci/avatar.png" alt="marci" width="100"/></a> <a href="./downloads/mars/README.md"><img src="./downloads/mars/avatar.png" alt="mars" width="100"/></a> <a href="./downloads/monkey-king/README.md"><img src="./downloads/monkey-king/avatar.png" alt="monkey-king" width="100"/></a>
 
- [![arc-warden](./downloads/arc-warden/hero.png)](./downloads/arc-warden/README.md) ## axe
+<a href="./downloads/morphling/README.md"><img src="./downloads/morphling/avatar.png" alt="morphling" width="100"/></a> <a href="./downloads/muerta/README.md"><img src="./downloads/muerta/avatar.png" alt="muerta" width="100"/></a> <a href="./downloads/natures-prophet/README.md"><img src="./downloads/natures-prophet/avatar.png" alt="natures-prophet" width="100"/></a> <a href="./downloads/ogre-magi/README.md"><img src="./downloads/ogre-magi/avatar.png" alt="ogre-magi" width="100"/></a> <a href="./downloads/pangolier/README.md"><img src="./downloads/pangolier/avatar.png" alt="pangolier" width="100"/></a> <a href="./downloads/phantom-assassin/README.md"><img src="./downloads/phantom-assassin/avatar.png" alt="phantom-assassin" width="100"/></a>
 
- [![axe](./downloads/axe/hero.png)](./downloads/axe/README.md) ## bane
+<a href="./downloads/primal-beast/README.md"><img src="./downloads/primal-beast/avatar.png" alt="primal-beast" width="100"/></a> <a href="./downloads/puck/README.md"><img src="./downloads/puck/avatar.png" alt="puck" width="100"/></a> <a href="./downloads/pudge/README.md"><img src="./downloads/pudge/avatar.png" alt="pudge" width="100"/></a> <a href="./downloads/queen-of-pain/README.md"><img src="./downloads/queen-of-pain/avatar.png" alt="queen-of-pain" width="100"/></a> <a href="./downloads/razor/README.md"><img src="./downloads/razor/avatar.png" alt="razor" width="100"/></a> <a href="./downloads/sand-king/README.md"><img src="./downloads/sand-king/avatar.png" alt="sand-king" width="100"/></a>
 
- [![bane](./downloads/bane/hero.png)](./downloads/bane/README.md)
+<a href="./downloads/shadow-fiend/README.md"><img src="./downloads/shadow-fiend/avatar.png" alt="shadow-fiend" width="100"/></a> <a href="./downloads/skywrath-mage/README.md"><img src="./downloads/skywrath-mage/avatar.png" alt="skywrath-mage" width="100"/></a> <a href="./downloads/slark/README.md"><img src="./downloads/slark/avatar.png" alt="slark" width="100"/></a> <a href="./downloads/snapfire/README.md"><img src="./downloads/snapfire/avatar.png" alt="snapfire" width="100"/></a> <a href="./downloads/sniper/README.md"><img src="./downloads/sniper/avatar.png" alt="sniper" width="100"/></a> <a href="./downloads/sven/README.md"><img src="./downloads/sven/avatar.png" alt="sven" width="100"/></a>
 
-## bloodseeker
-
- [![bloodseeker](./downloads/bloodseeker/hero.png)](./downloads/bloodseeker/README.md) ## bristleback
-
- [![bristleback](./downloads/bristleback/hero.png)](./downloads/bristleback/README.md) ## centaur
-
- [![centaur](./downloads/centaur/hero.png)](./downloads/centaur/README.md) ## crystal-maiden
-
- [![crystal-maiden](./downloads/crystal-maiden/hero.png)](./downloads/crystal-maiden/README.md) ## drow-ranger
-
- [![drow-ranger](./downloads/drow-ranger/hero.png)](./downloads/drow-ranger/README.md) ## ember-spirit
-
- [![ember-spirit](./downloads/ember-spirit/hero.png)](./downloads/ember-spirit/README.md)
-
-## enigma
-
- [![enigma](./downloads/enigma/hero.png)](./downloads/enigma/README.md) ## hoodwink
-
- [![hoodwink](./downloads/hoodwink/hero.png)](./downloads/hoodwink/README.md) ## huskar
-
- [![huskar](./downloads/huskar/hero.png)](./downloads/huskar/README.md) ## invoker
-
- [![invoker](./downloads/invoker/hero.png)](./downloads/invoker/README.md) ## juggernaut
-
- [![juggernaut](./downloads/juggernaut/hero.png)](./downloads/juggernaut/README.md) ## legion-commander
-
- [![legion-commander](./downloads/legion-commander/hero.png)](./downloads/legion-commander/README.md)
-
-## leshrac
-
- [![leshrac](./downloads/leshrac/hero.png)](./downloads/leshrac/README.md) ## lifestealer
-
- [![lifestealer](./downloads/lifestealer/hero.png)](./downloads/lifestealer/README.md) ## lina
-
- [![lina](./downloads/lina/hero.png)](./downloads/lina/README.md) ## marci
-
- [![marci](./downloads/marci/hero.png)](./downloads/marci/README.md) ## mars
-
- [![mars](./downloads/mars/hero.png)](./downloads/mars/README.md) ## monkey-king
-
- [![monkey-king](./downloads/monkey-king/hero.png)](./downloads/monkey-king/README.md)
-
-## morphling
-
- [![morphling](./downloads/morphling/hero.png)](./downloads/morphling/README.md) ## muerta
-
- [![muerta](./downloads/muerta/hero.png)](./downloads/muerta/README.md) ## natures-prophet
-
- [![natures-prophet](./downloads/natures-prophet/hero.png)](./downloads/natures-prophet/README.md) ## ogre-magi
-
- [![ogre-magi](./downloads/ogre-magi/hero.png)](./downloads/ogre-magi/README.md) ## pangolier
-
- [![pangolier](./downloads/pangolier/hero.png)](./downloads/pangolier/README.md) ## phantom-assassin
-
- [![phantom-assassin](./downloads/phantom-assassin/hero.png)](./downloads/phantom-assassin/README.md)
-
-## primal-beast
-
- [![primal-beast](./downloads/primal-beast/hero.png)](./downloads/primal-beast/README.md) ## puck
-
- [![puck](./downloads/puck/hero.png)](./downloads/puck/README.md) ## pudge
-
- [![pudge](./downloads/pudge/hero.png)](./downloads/pudge/README.md) ## queen-of-pain
-
- [![queen-of-pain](./downloads/queen-of-pain/hero.png)](./downloads/queen-of-pain/README.md) ## razor
-
- [![razor](./downloads/razor/hero.png)](./downloads/razor/README.md) ## sand-king
-
- [![sand-king](./downloads/sand-king/hero.png)](./downloads/sand-king/README.md)
-
-## shadow-fiend
-
- [![shadow-fiend](./downloads/shadow-fiend/hero.png)](./downloads/shadow-fiend/README.md) ## skywrath-mage
-
- [![skywrath-mage](./downloads/skywrath-mage/hero.png)](./downloads/skywrath-mage/README.md) ## slark
-
- [![slark](./downloads/slark/hero.png)](./downloads/slark/README.md) ## snapfire
-
- [![snapfire](./downloads/snapfire/hero.png)](./downloads/snapfire/README.md) ## sniper
-
- [![sniper](./downloads/sniper/hero.png)](./downloads/sniper/README.md) ## sven
-
- [![sven](./downloads/sven/hero.png)](./downloads/sven/README.md)
-
-## templar-assassin
-
- [![templar-assassin](./downloads/templar-assassin/hero.png)](./downloads/templar-assassin/README.md) ## terrorblade
-
- [![terrorblade](./downloads/terrorblade/hero.png)](./downloads/terrorblade/README.md) ## troll-warlord
-
- [![troll-warlord](./downloads/troll-warlord/hero.png)](./downloads/troll-warlord/README.md) ## void-spirit
-
- [![void-spirit](./downloads/void-spirit/hero.png)](./downloads/void-spirit/README.md) ## wraith-king
-
- [![wraith-king](./downloads/wraith-king/hero.png)](./downloads/wraith-king/README.md) ## zeus
-
- [![zeus](./downloads/zeus/hero.png)](./downloads/zeus/README.md)
+<a href="./downloads/templar-assassin/README.md"><img src="./downloads/templar-assassin/avatar.png" alt="templar-assassin" width="100"/></a> <a href="./downloads/terrorblade/README.md"><img src="./downloads/terrorblade/avatar.png" alt="terrorblade" width="100"/></a> <a href="./downloads/troll-warlord/README.md"><img src="./downloads/troll-warlord/avatar.png" alt="troll-warlord" width="100"/></a> <a href="./downloads/void-spirit/README.md"><img src="./downloads/void-spirit/avatar.png" alt="void-spirit" width="100"/></a> <a href="./downloads/wraith-king/README.md"><img src="./downloads/wraith-king/avatar.png" alt="wraith-king" width="100"/></a> <a href="./downloads/zeus/README.md"><img src="./downloads/zeus/avatar.png" alt="zeus" width="100"/></a>

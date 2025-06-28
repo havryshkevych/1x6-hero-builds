@@ -4,8 +4,11 @@ import { DOWNLOAD_DIR } from './config';
 
 const ROOT_README = 'README.md';
 
-function toSlug(text: string) {
-    return text.replace(/\s+/g, '_');
+function formatDate(date: Date): string {
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // месяцы с 0
+    const year = date.getFullYear();
+    return `${day}.${month}.${year}`;
 }
 
 function generateHeroGrid(heroes: string[]): string {
@@ -15,9 +18,10 @@ function generateHeroGrid(heroes: string[]): string {
     for (let i = 0; i < heroes.length; i += rowLength) {
         const rowHeroes = heroes.slice(i, i + rowLength);
         const row = rowHeroes.map(hero => {
-            const imgPath = `./${path.join(DOWNLOAD_DIR, hero, 'hero.png')}`.replace(/\\/g, '/');
+            const imgPath = `./${path.join(DOWNLOAD_DIR, hero, 'avatar.png')}`.replace(/\\/g, '/');
             const linkPath = `./${path.join(DOWNLOAD_DIR, hero, 'README.md')}`.replace(/\\/g, '/');
-            return `## ${hero}\n\n [![${hero}](${imgPath})](${linkPath})`;
+            return `<a href="${linkPath}"><img src="${imgPath}" alt="${hero}" width="100"/></a>`;
+            // return `[![${hero}](${imgPath})](${linkPath})`;
         }).join(' ');
         rows.push(row);
     }
@@ -51,7 +55,8 @@ function generateReadmes() {
     }
 
     // === Корневой README ===
-    let rootContent = `# Dota 1x6 Hero Builds\n\n`;
+    const today = formatDate(new Date());
+    let rootContent = `# Dota 1x6 Hero Builds (обновлено ${today})\n\n`;
     rootContent += `Нажми на аватар героя, чтобы открыть подробный билд\n\n`;
     rootContent += generateHeroGrid(heroes);
 
