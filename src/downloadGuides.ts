@@ -21,6 +21,24 @@ import { DOWNLOAD_DIR } from './config';
     for (const link of links) {
         console.log(`Сохраняю: ${link}`);
         await page.goto(link, { waitUntil: 'networkidle' });
+
+        const heroSelector = '#root > div > div > main > div > div:nth-child(2) > div';
+        await page.waitForTimeout(500);
+        const block = await page.$(heroSelector); // замени на реальный селектор!
+        const box = await block?.boundingBox();
+        if (box) {
+            await page.screenshot({
+                path: DOWNLOAD_DIR + '/' + link.substring(link.lastIndexOf('/') + 1) + `/hero.png`,
+                clip: {
+                    x: box.x,
+                    y: box.y,
+                    width: box.width,
+                    height: box.height,
+                },
+            });
+            console.log(`✅ Скриншот героя сохранён`);
+        }
+
         const itemsSelector = '#root > div > div > main > div > div:nth-child(3) > div';
         const tabSelector = '.flex.flex-row.items-center.gap-[8px] > div'; // или уточнить путь
         const tabBlock = page.locator('.flex.flex-row.items-center.gap-\\[8px\\]');
