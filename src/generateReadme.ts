@@ -3,13 +3,20 @@ import path from 'path';
 import { DOWNLOAD_DIR } from './config';
 
 const ROOT_README = 'README.md';
+function formatDate(date: Date): string {
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // месяцы с 0
+    const year = date.getFullYear();
+    return `${day}.${month}.${year}`;
+}
 
 function generateReadmes() {
     const heroes = fs.readdirSync(DOWNLOAD_DIR).filter(name =>
         fs.statSync(path.join(DOWNLOAD_DIR, name)).isDirectory()
     );
 
-    let rootContent = '# Гайды Dota 1x6\n\n';
+    const today = formatDate(new Date());
+    let rootContent = `# Гайды Dota 1x6 (обновлено ${today})\n\n`;
 
     for (const hero of heroes) {
         const heroDir = path.join(DOWNLOAD_DIR, hero);

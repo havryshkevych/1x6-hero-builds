@@ -1,4 +1,4 @@
-# Гайды Dota 1x6
+# Гайды Dota 1x6 (обновлено 28.06.2025)
 
 - [abaddon](./downloads/abaddon/README.md)
 - [alchemist](./downloads/alchemist/README.md)
