@@ -15,7 +15,8 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "npm": "^11.4.2"
+    "npm": "^11.4.2",
+    "p-limit": "^6.2.0"
   },
   "scripts": {
     "save-cookies": "tsx src/saveCookies.ts",
